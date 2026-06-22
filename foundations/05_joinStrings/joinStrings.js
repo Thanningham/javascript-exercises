@@ -15,7 +15,7 @@ let thisYear = 1965
 let birthYear = 1947
 let age = thisYear - birthYear
 let fullName = firstName + " " + lastName
-let greeting = `Hello! My name is ${firstName} ${lastName} and I am ${age} years old.`;
+let greeting = `Hello! My name is ${fullName} and I am ${age} years old.`;
 
 console.log(greeting);
 
